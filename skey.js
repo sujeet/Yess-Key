@@ -25,9 +25,9 @@
    current pebbles : [1 129 193 225 241
    want to find    : hash at 248
    We have 4 places freed up in our storage space,
-   can we a create structure of 4 pebbles
-   similar to [249 253 255 256], but ending with 248 on the top of the stack?
-   yes! consider   : [1 129 193 225 241 245 246 247 248
+   can we a create structure of less than 4 pebbles
+   similar to [253 255 256], but ending with 248 on the top of the stack?
+   yes! consider   : [1 129 193 225 241 245 247 248
    (it is like fitting the structure so far popped into the space just below)
 
  SAVE AND LOAD:
