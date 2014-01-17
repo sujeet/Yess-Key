@@ -62,6 +62,7 @@ function test_chain(constructor, seed, num_iterations) {
     }
     var vk = current;
   }
+  // console.log (chain.hash_count / num_iterations);
   console.log("[SUCCESS] All values in the chain were correct.")
 
   // Check that the chain ends.
