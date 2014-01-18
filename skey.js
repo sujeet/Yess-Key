@@ -69,7 +69,23 @@
 2. If you were designing an authentication mechanism for
    a hot new startup that wants to protect its users,
    how would you decide whether/where to use S/KEY?
--->
+--> For S/KEY, seed needs to be stored on the client which might turn out to
+   be a hassle for web-based apps. On the other hand, it will be a good idea
+   when the app is a native app (android/iOS/desktop).
+
+   Another thing that might work against S/KEY is if we plan to support
+   a large number of devices. (Each device would have its own chain).
+
+   To sum it up, if the startup isn't a website, but more like a native app,
+   we would go with S/KEY. If it is a website and we want our users to be
+   able to use the site from any computer, S/KEY isn't the thing we would go
+   ahead with.
+
+   In the later case where we have a website, but main focus is native apps,
+   we could provide all the non critical functions via website, but for
+   crucial things like trasactions, account management and password change
+   etc, we would require a dual-authentication, (which, would be on the native
+   apps). This, to us, seems to be a reasonable middle ground.
 
 
 3. How long did you spend on this project?
