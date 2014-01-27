@@ -10,6 +10,9 @@
    Did you do something interesting in "save" and "load"?
    Justify the space/time used by your implementation.
 -->
+ NOTE:
+   Our impletemnation works irrespective of whether the number of iterations
+   is power of two or not.
  ALGORITHM:
    The algorithm was guided by the hint given in the problem sheet.
    We started off with the pebble structure mentioned in the hint.
